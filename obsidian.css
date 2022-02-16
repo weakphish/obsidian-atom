@@ -268,6 +268,18 @@ h1, h2, h3, h4, h5, h6, strong, b, .view-header-title {
   font-weight: 600;
 }
 
+h1 {
+  color: var(--red)
+}
+
+h2 {
+  color: var(--orange)
+}
+
+h3 {
+  color: var(--purple)
+}
+
 .workspace>.workspace-split>.workspace-leaf:first-of-type:last-of-type .view-header {
   border: none;
 }
