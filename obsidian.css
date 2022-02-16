@@ -228,7 +228,7 @@ blockquote {
 }
 
 body {
-  --font-monospace: 'Fira Code', 'Source Code Pro', monospace;
+  --font-monospace: 'Menlo', 'Cascadia Code', monospace;
 }
 
 mjx-container[jax='CHTML'] {
@@ -268,20 +268,24 @@ h1, h2, h3, h4, h5, h6, strong, b, .view-header-title {
   font-weight: 600;
 }
 
-h1, cm-header-1 {
+h1 {
+  color: var(--green)
+}
+
+h2 {
   color: var(--purple)
 }
 
-h2, cm-header-2{
+h3 {
   color: var(--blue)
-}
-
-h3, cm-header-3{
-  color: var(--green)
 }
 
 strong {
   color: var(--red)
+}
+
+em {
+  color: var(--aqua)
 }
 
 .workspace>.workspace-split>.workspace-leaf:first-of-type:last-of-type .view-header {
